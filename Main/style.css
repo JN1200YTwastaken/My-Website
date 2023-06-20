@@ -1,3 +1,6 @@
+
+/* Sorry for this terrible codes */
+
 * {
     font-family: 'Roboto', sans-serif;
     -webkit-user-select: none;
@@ -13,6 +16,35 @@ body {
    /* background: url(https://i.pinimg.com/originals/e5/9c/82/e59c829455bd9cdc12930cb72c7253f3.png)no-repeat;
     background-size: cover;>*/
     overflow-y: hidden;
+}
+
+h1 {
+    padding: none;
+    margin: none;
+    top: 0px;
+}
+
+.github {
+    text-align: right;
+    padding: 20px;
+
+    
+}
+
+#gh {
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 54, 54);
+    transition: transform .7s ease-in-out;
+    font-size: 50px; /* Determines the size of the icon */
+}
+
+#gh:hover {
+    transform: rotate(360deg);
+}
+
+.floatcenter {
+    float: center;
 }
 
 
@@ -124,29 +156,6 @@ font-size: 28pt;
     color: #1DA1F2;
     transform: rotate(360deg);
 }
-
-/* Instagram hover effect*/
-
-#instagram-logo .fab {
-    color: #262926;
-  padding: 5px;
-  border: 1px solid #333;
-  border-bottom-right-radius: 15px;
-  border-radius: 5px;
-}
-#instagram-logo .fa-instagram {
-    padding: auto;
-}
-#instagram-logo .fa-instagram:hover {
-  color: #fff;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
-
-
-
-
-
-
 
 #more {
     height: 180;
