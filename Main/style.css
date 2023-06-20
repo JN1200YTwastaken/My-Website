@@ -1,0 +1,156 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    -webkit-user-select: none;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 54, 54);
+    font-size: 24pt;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+   /* background: url(https://i.pinimg.com/originals/e5/9c/82/e59c829455bd9cdc12930cb72c7253f3.png)no-repeat;
+    background-size: cover;>*/
+    overflow-y: hidden;
+}
+
+
+
+.social  {
+    position: fixed;
+    height: 180;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social a {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+    padding: 0;
+    
+    
+}
+
+#div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  
+
+}
+
+.center {
+    text-align: center;
+}   
+
+p {
+    font-size: 35pt;
+    
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    text-align: center;
+    border: 3.2px solid white;
+    padding: none;
+    margin: 10px;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+    font-size: 25pt;
+    height: 100px;
+    width: 250px;
+    
+    
+}
+
+button:hover {
+opacity: 50%;
+height: 110px;
+width: 275px;
+font-size: 28pt;
+
+}
+
+#more {
+    top: 70%;
+}
+
+
+/*  hovers  */
+#fb {
+    transition: transform .7s ease-in-out;
+}
+
+#fb:hover {
+    color:  #4267B2;
+    transform: rotate(360deg);
+}
+#yt {
+    transition: transform .7s ease-in-out;
+}
+#yt:hover {
+    color: #FF0000;
+    transform: rotate(360deg);
+}
+/*
+#ig:hover {
+   color: rgb(74, 74, 74);
+}
+*/
+#dc {
+    transition: transform .7s ease-in-out;
+}
+
+#dc:hover {
+    color: #5865F2;
+    transform: rotate(360deg);
+}
+#tw {
+    transition: transform .7s ease-in-out;
+}
+#tw:hover {
+    color: #1DA1F2;
+    transform: rotate(360deg);
+}
+
+/* Instagram hover effect*/
+
+#instagram-logo .fab {
+    color: #262926;
+  padding: 5px;
+  border: 1px solid #333;
+  border-bottom-right-radius: 15px;
+  border-radius: 5px;
+}
+#instagram-logo .fa-instagram {
+    padding: auto;
+}
+#instagram-logo .fa-instagram:hover {
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+
+
+
+
+
+
+#more {
+    height: 180;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
